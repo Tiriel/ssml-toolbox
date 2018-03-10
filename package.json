@@ -1,0 +1,18 @@
+{
+  "name": "ssml-tools",
+  "version": "0.0.0",
+  "description": "SSML tooling, build and render SSML",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": {
+    "name": "Benjamin Zaslavsky",
+    "email": "benjamin.zaslavsky@gmail.com",
+    "url": "http://benjaminzaslavsky.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^3.8.2"
+  }
+}
