@@ -44,3 +44,4 @@ const ssml2 = builder
  * [SsmlTag](./doc/SsmlTag.md) - The basic element class
  * [SsmlBuilder](./doc/SsmlBuilder.md) - The standard builder
  * [GoogleSsmlBuilder](./doc/GoogleSsmlBuilder.md) - Google specific builder
+ * [AlexaSsmlBuilder](./doc/AlexaSsmlBuilder.md) - Amazon Alexa specific builder

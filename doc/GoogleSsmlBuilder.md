@@ -5,14 +5,14 @@ Extends [SsmlBuilder](SsmlBuilder.md)
 
 ## Chainable methods
 These methods internally use the non-chainable methods.
-#### addPar([\<array|SsmlTag> time[, \<object> opts]])
+#### addPar(\<array|SsmlTag> time, \<object> opts)
 Adds a SSML `<par>[...]</par>` tag to the element pile as a SsmlTag object.
 
-#### addSeq([\<array|SsmlTag> time[, \<object> opts]])
+#### addSeq(\<array|SsmlTag> time, \<object> opts)
 Adds a SSML `<seq>[...]</seq>` tag to the element pile as a SsmlTag object.
 
-#### addMedia([\<array|SsmlTag> time[, \<object> opts]])
-a SSML `<media>[...]</media>` tag to the element pile as a SsmlTag object.
+#### addMedia(\<array|SsmlTag> time, \<object> opts)
+Adds a SSML `<media>[...]</media>` tag to the element pile as a SsmlTag object.
 
 ## Non-chainable methods
 These methods return an SsmlTag.

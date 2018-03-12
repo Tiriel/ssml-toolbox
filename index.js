@@ -1,11 +1,13 @@
 'use strict';
 
-const SsmlBuilder = require('./lib/SsmlBuilder');
-const SsmlTag = require('./lib/SsmlTag');
-const GoogleSsmlBuilder = require('./lib/GoogleSsmlBuilder');
+const SsmlBuilder = require('./lib/base/SsmlBuilder');
+const SsmlTag = require('./lib/base/SsmlTag');
+const GoogleSsmlBuilder = require('./lib/google/GoogleSsmlBuilder');
+const AlexaSsmlBuilder = require('./lib/aws/AlexaSsmlBuilder');
 
 const { speak, breakTag, sayAs, audio, p, s, sub, prosody, emphasis } = SsmlBuilder;
 const { par, seq, media } = GoogleSsmlBuilder;
+const { amazonEffect, phoneme, w } = AlexaSsmlBuilder;
 
 module.exports = {
     SsmlBuilder,
@@ -22,5 +24,8 @@ module.exports = {
     emphasis,
     par,
     seq,
-    media
+    media,
+    amazonEffect,
+    phoneme,
+    w
 };
