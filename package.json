@@ -1,6 +1,6 @@
 {
   "name": "ssml-toolbox",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "SSML toolbox, build and render SSML",
   "main": "index.js",
   "scripts": {
