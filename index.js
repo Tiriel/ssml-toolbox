@@ -2,6 +2,25 @@
 
 const SsmlBuilder = require('./lib/SsmlBuilder');
 const SsmlTag = require('./lib/SsmlTag');
+const GoogleSsmlBuilder = require('./lib/GoogleSsmlBuilder');
 
-exports.SsmlBuilder = SsmlBuilder;
-exports.SsmlTag = SsmlTag;
+const { speak, breakTag, sayAs, audio, p, s, sub, prosody, emphasis } = SsmlBuilder;
+const { par, seq, media } = GoogleSsmlBuilder;
+
+module.exports = {
+    SsmlBuilder,
+    SsmlTag,
+    GoogleSsmlBuilder,
+    speak,
+    breakTag,
+    sayAs,
+    audio,
+    p,
+    s,
+    sub,
+    prosody,
+    emphasis,
+    par,
+    seq,
+    media
+};
