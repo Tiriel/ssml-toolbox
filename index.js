@@ -13,6 +13,7 @@ module.exports = {
     SsmlBuilder,
     SsmlTag,
     GoogleSsmlBuilder,
+    AlexaSsmlBuilder,
     speak,
     breakTag,
     sayAs,
